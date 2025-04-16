@@ -1,58 +1,70 @@
 name: task01
+build_projects_mapping:
+  nodejs: app
+lambdas:
+  hello_world:
+    runtime: nodejs
 locks:
   modification_lock:
-    last_modification_date: '2025-04-16T20:25:58Z'
+    last_modification_date: '2025-03-07T13:01:56Z'
     is_locked: false
-    initiator: ArpitGupta2
+    initiator: arpit_gupta2
 events:
 - operation: deploy
-  initiator: ArpitGupta2
-  bundle_name: task01_250417.015536
+  initiator: arpit_gupta2
+  bundle_name: task01_250307.183049
   deploy_name: task01
-  time_start: '2025-04-17T01:55:53Z'
-  time_end: '2025-04-17T01:55:58Z'
-  duration_sec: 4.661
+  time_start: '2025-03-07T18:31:33Z'
+  time_end: '2025-03-07T18:31:56Z'
+  duration_sec: 22.632
   status: succeeded
   rollback_on_error: false
 - operation: build
-  initiator: ArpitGupta2
-  bundle_name: task01_250417.015536
-  time_start: '2025-04-17T01:55:36Z'
-  time_end: '2025-04-17T01:55:39Z'
-  duration_sec: 3.028
+  initiator: arpit_gupta2
+  bundle_name: task01_250307.183049
+  time_start: '2025-03-07T18:30:49Z'
+  time_end: '2025-03-07T18:30:55Z'
+  duration_sec: 5.838
   status: succeeded
 - operation: upload
-  initiator: ArpitGupta2
-  bundle_name: task01_250417.015536
-  time_start: '2025-04-17T01:55:38Z'
-  time_end: '2025-04-17T01:55:39Z'
-  duration_sec: 1.087
+  initiator: arpit_gupta2
+  bundle_name: task01_250307.183049
+  time_start: '2025-03-07T18:30:53Z'
+  time_end: '2025-03-07T18:30:55Z'
+  duration_sec: 1.958
   status: succeeded
 - operation: package_meta
-  initiator: ArpitGupta2
-  bundle_name: task01_250417.015536
-  time_start: '2025-04-17T01:55:38Z'
-  time_end: '2025-04-17T01:55:38Z'
+  initiator: arpit_gupta2
+  bundle_name: task01_250307.183049
+  time_start: '2025-03-07T18:30:53Z'
+  time_end: '2025-03-07T18:30:53Z'
   duration_sec: 0.004
   status: succeeded
 - operation: assemble
-  initiator: ArpitGupta2
-  bundle_name: task01_250417.015536
-  time_start: '2025-04-17T01:55:38Z'
-  time_end: '2025-04-17T01:55:38Z'
-  duration_sec: 0.003
+  initiator: arpit_gupta2
+  bundle_name: task01_250307.183049
+  time_start: '2025-03-07T18:30:51Z'
+  time_end: '2025-03-07T18:30:53Z'
+  duration_sec: 1.906
+  status: succeeded
+- operation: assemble_node
+  initiator: arpit_gupta2
+  bundle_name: task01_250307.183049
+  time_start: '2025-03-07T18:30:51Z'
+  time_end: '2025-03-07T18:30:53Z'
+  duration_sec: 1.899
   status: succeeded
 - operation: test
-  initiator: ArpitGupta2
-  time_start: '2025-04-17T01:55:38Z'
-  time_end: '2025-04-17T01:55:38Z'
-  duration_sec: 0.001
+  initiator: arpit_gupta2
+  time_start: '2025-03-07T18:30:51Z'
+  time_end: '2025-03-07T18:30:51Z'
+  duration_sec: 0.002
   status: succeeded
 latest_deploy:
-  initiator: ArpitGupta2
-  bundle_name: task01_250417.015536
+  initiator: arpit_gupta2
+  bundle_name: task01_250307.183049
   deploy_name: task01
-  time_start: '2025-04-17T01:55:53Z'
-  time_end: '2025-04-17T01:55:58Z'
-  duration_sec: 4.661
+  time_start: '2025-03-07T18:31:33Z'
+  time_end: '2025-03-07T18:31:56Z'
+  duration_sec: 22.632
   is_succeeded: true

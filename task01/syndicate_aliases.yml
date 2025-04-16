@@ -1,8 +1,0 @@
-account_id: '890742610830'
-lambdas_alias_name: dev
-logs_expiration: 30
-region: eu-west-1
-
-aliases:
-  dev:                   # Alias name (matches `lambdas_alias_name`)
-    - hello_world        # Points to the `hello_world` Lambda
