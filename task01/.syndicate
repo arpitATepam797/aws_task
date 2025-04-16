@@ -1,0 +1,58 @@
+name: task01
+locks:
+  modification_lock:
+    last_modification_date: '2025-04-16T20:25:58Z'
+    is_locked: false
+    initiator: ArpitGupta2
+events:
+- operation: deploy
+  initiator: ArpitGupta2
+  bundle_name: task01_250417.015536
+  deploy_name: task01
+  time_start: '2025-04-17T01:55:53Z'
+  time_end: '2025-04-17T01:55:58Z'
+  duration_sec: 4.661
+  status: succeeded
+  rollback_on_error: false
+- operation: build
+  initiator: ArpitGupta2
+  bundle_name: task01_250417.015536
+  time_start: '2025-04-17T01:55:36Z'
+  time_end: '2025-04-17T01:55:39Z'
+  duration_sec: 3.028
+  status: succeeded
+- operation: upload
+  initiator: ArpitGupta2
+  bundle_name: task01_250417.015536
+  time_start: '2025-04-17T01:55:38Z'
+  time_end: '2025-04-17T01:55:39Z'
+  duration_sec: 1.087
+  status: succeeded
+- operation: package_meta
+  initiator: ArpitGupta2
+  bundle_name: task01_250417.015536
+  time_start: '2025-04-17T01:55:38Z'
+  time_end: '2025-04-17T01:55:38Z'
+  duration_sec: 0.004
+  status: succeeded
+- operation: assemble
+  initiator: ArpitGupta2
+  bundle_name: task01_250417.015536
+  time_start: '2025-04-17T01:55:38Z'
+  time_end: '2025-04-17T01:55:38Z'
+  duration_sec: 0.003
+  status: succeeded
+- operation: test
+  initiator: ArpitGupta2
+  time_start: '2025-04-17T01:55:38Z'
+  time_end: '2025-04-17T01:55:38Z'
+  duration_sec: 0.001
+  status: succeeded
+latest_deploy:
+  initiator: ArpitGupta2
+  bundle_name: task01_250417.015536
+  deploy_name: task01
+  time_start: '2025-04-17T01:55:53Z'
+  time_end: '2025-04-17T01:55:58Z'
+  duration_sec: 4.661
+  is_succeeded: true

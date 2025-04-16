@@ -1,0 +1,133 @@
+2025-04-17 01:50:04,910 [INFO] USER:ArpitGupta2 handlers.py:106:syndicate LOG: Configuration used: C:/Users/arpit_gupta2/aws_task/task01
+2025-04-17 01:50:04,911 [ERROR] USER:ArpitGupta2 decorators.py:136:wrapper LOG: sdct.conf does not exist inside C:/Users/arpit_gupta2/aws_task/task01 folder
+2025-04-17 01:50:04,952 [ERROR] USER:ArpitGupta2 decorators.py:137:wrapper LOG: Traceback (most recent call last):
+  File "C:\Users\arpit_gupta2\AppData\Local\Programs\Python\Python313\Lib\site-packages\syndicate\core\decorators.py", line 134, in wrapper
+    return_code = func(*args, **kwargs)
+  File "C:\Users\arpit_gupta2\AppData\Local\Programs\Python\Python313\Lib\site-packages\syndicate\core\handlers.py", line 107, in syndicate
+    initialize_connection()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\arpit_gupta2\AppData\Local\Programs\Python\Python313\Lib\site-packages\syndicate\core\__init__.py", line 106, in initialize_connection
+    CONFIG = ConfigHolder(CONF_PATH)
+  File "C:\Users\arpit_gupta2\AppData\Local\Programs\Python\Python313\Lib\site-packages\syndicate\core\conf\processor.py", line 63, in __init__
+    self._init_conf_config(dir_path=dir_path)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arpit_gupta2\AppData\Local\Programs\Python\Python313\Lib\site-packages\syndicate\core\conf\processor.py", line 92, in _init_conf_config
+    raise AssertionError(
+        'sdct.conf does not exist inside %s folder' % dir_path)
+AssertionError: sdct.conf does not exist inside C:/Users/arpit_gupta2/aws_task/task01 folder
+Traceback (most recent call last):
+  File "C:\Users\arpit_gupta2\AppData\Local\Programs\Python\Python313\Lib\site-packages\syndicate\core\decorators.py", line 134, in wrapper
+    return_code = func(*args, **kwargs)
+  File "C:\Users\arpit_gupta2\AppData\Local\Programs\Python\Python313\Lib\site-packages\syndicate\core\handlers.py", line 107, in syndicate
+    initialize_connection()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\arpit_gupta2\AppData\Local\Programs\Python\Python313\Lib\site-packages\syndicate\core\__init__.py", line 106, in initialize_connection
+    CONFIG = ConfigHolder(CONF_PATH)
+  File "C:\Users\arpit_gupta2\AppData\Local\Programs\Python\Python313\Lib\site-packages\syndicate\core\conf\processor.py", line 63, in __init__
+    self._init_conf_config(dir_path=dir_path)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arpit_gupta2\AppData\Local\Programs\Python\Python313\Lib\site-packages\syndicate\core\conf\processor.py", line 92, in _init_conf_config
+    raise AssertionError(
+        'sdct.conf does not exist inside %s folder' % dir_path)
+AssertionError: sdct.conf does not exist inside C:/Users/arpit_gupta2/aws_task/task01 folder
+2025-04-17 01:51:00,111 [INFO] USER:ArpitGupta2 handlers.py:106:syndicate LOG: Configuration used: C:/Users/arpit_gupta2/aws_task/task01
+2025-04-17 01:51:00,111 [ERROR] USER:ArpitGupta2 decorators.py:136:wrapper LOG: sdct.conf does not exist inside C:/Users/arpit_gupta2/aws_task/task01 folder
+2025-04-17 01:51:00,113 [ERROR] USER:ArpitGupta2 decorators.py:137:wrapper LOG: Traceback (most recent call last):
+  File "C:\Users\arpit_gupta2\AppData\Local\Programs\Python\Python313\Lib\site-packages\syndicate\core\decorators.py", line 134, in wrapper
+    return_code = func(*args, **kwargs)
+  File "C:\Users\arpit_gupta2\AppData\Local\Programs\Python\Python313\Lib\site-packages\syndicate\core\handlers.py", line 107, in syndicate
+    initialize_connection()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\arpit_gupta2\AppData\Local\Programs\Python\Python313\Lib\site-packages\syndicate\core\__init__.py", line 106, in initialize_connection
+    CONFIG = ConfigHolder(CONF_PATH)
+  File "C:\Users\arpit_gupta2\AppData\Local\Programs\Python\Python313\Lib\site-packages\syndicate\core\conf\processor.py", line 63, in __init__
+    self._init_conf_config(dir_path=dir_path)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arpit_gupta2\AppData\Local\Programs\Python\Python313\Lib\site-packages\syndicate\core\conf\processor.py", line 92, in _init_conf_config
+    raise AssertionError(
+        'sdct.conf does not exist inside %s folder' % dir_path)
+AssertionError: sdct.conf does not exist inside C:/Users/arpit_gupta2/aws_task/task01 folder
+Traceback (most recent call last):
+  File "C:\Users\arpit_gupta2\AppData\Local\Programs\Python\Python313\Lib\site-packages\syndicate\core\decorators.py", line 134, in wrapper
+    return_code = func(*args, **kwargs)
+  File "C:\Users\arpit_gupta2\AppData\Local\Programs\Python\Python313\Lib\site-packages\syndicate\core\handlers.py", line 107, in syndicate
+    initialize_connection()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\arpit_gupta2\AppData\Local\Programs\Python\Python313\Lib\site-packages\syndicate\core\__init__.py", line 106, in initialize_connection
+    CONFIG = ConfigHolder(CONF_PATH)
+  File "C:\Users\arpit_gupta2\AppData\Local\Programs\Python\Python313\Lib\site-packages\syndicate\core\conf\processor.py", line 63, in __init__
+    self._init_conf_config(dir_path=dir_path)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arpit_gupta2\AppData\Local\Programs\Python\Python313\Lib\site-packages\syndicate\core\conf\processor.py", line 92, in _init_conf_config
+    raise AssertionError(
+        'sdct.conf does not exist inside %s folder' % dir_path)
+AssertionError: sdct.conf does not exist inside C:/Users/arpit_gupta2/aws_task/task01 folder
+2025-04-17 01:54:58,046 [INFO] USER:ArpitGupta2 handlers.py:106:syndicate LOG: Configuration used: C:/Users/arpit_gupta2/aws_task/task01
+2025-04-17 01:54:58,051 [WARNING] USER:ArpitGupta2 validator.py:179:validate LOG: Unknown parameter(s) in the configuration file: {'lambdas'}
+2025-04-17 01:54:58,311 [WARNING] USER:ArpitGupta2 __init__.py:190:initialize_project_state LOG: [93mConfig is set and generated but project state does not exist, seems that you've come from the previous version.[0m
+2025-04-17 01:54:58,312 [WARNING] USER:ArpitGupta2 __init__.py:193:initialize_project_state LOG: [93mGenerating project state file (.syndicate) from the existing structure...[0m
+2025-04-17 01:54:58,315 [INFO] USER:ArpitGupta2 processor.py:143:_prepare_bucket_view LOG: Viewing complement, URIBucketView, has been found, setting up the raw data.
+2025-04-17 01:55:00,488 [INFO] USER:ArpitGupta2 sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2025-04-17 01:55:33,906 [INFO] USER:ArpitGupta2 handlers.py:106:syndicate LOG: Configuration used: C:/Users/arpit_gupta2/aws_task/task01
+2025-04-17 01:55:33,911 [WARNING] USER:ArpitGupta2 validator.py:179:validate LOG: Unknown parameter(s) in the configuration file: {'lambdas'}
+2025-04-17 01:55:34,119 [INFO] USER:ArpitGupta2 processor.py:143:_prepare_bucket_view LOG: Viewing complement, URIBucketView, has been found, setting up the raw data.
+2025-04-17 01:55:35,742 [INFO] USER:ArpitGupta2 project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2025-04-17 01:55:35,742 [INFO] USER:ArpitGupta2 project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2025-04-17 01:55:36,152 [INFO] USER:ArpitGupta2 sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2025-04-17 01:55:38,045 [INFO] USER:ArpitGupta2 handlers.py:142:test LOG: Running tests...
+2025-04-17 01:55:38,046 [INFO] USER:ArpitGupta2 handlers.py:150:test LOG: Tests not found, 'tests' folder is missing in 'C:/Users/arpit_gupta2/aws_task/task01'.
+2025-04-17 01:55:38,047 [INFO] USER:ArpitGupta2 helper.py:330:timed LOG: Stage test, elapsed time: 0:00:00.001255
+2025-04-17 01:55:38,079 [INFO] USER:ArpitGupta2 handlers.py:993:assemble LOG: Building artifacts, bundle: task01_250417.015536
+2025-04-17 01:55:38,079 [INFO] USER:ArpitGupta2 project_state.py:396:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: C:\Users\arpit_gupta2\aws_task\task01\jsrc\main\java\com\task01.
+2025-04-17 01:55:38,080 [INFO] USER:ArpitGupta2 project_state.py:396:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: C:\Users\arpit_gupta2\aws_task\task01\src\lambdas.
+2025-04-17 01:55:38,080 [INFO] USER:ArpitGupta2 project_state.py:396:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: C:\Users\arpit_gupta2\aws_task\task01\app\lambdas.
+2025-04-17 01:55:38,081 [INFO] USER:ArpitGupta2 project_state.py:396:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: C:\Users\arpit_gupta2\aws_task\task01\dnapp\lambdas.
+2025-04-17 01:55:38,081 [INFO] USER:ArpitGupta2 project_state.py:430:_update_bpm_resources_from_path LOG: Going to resolve any build project mapping dependent resources from a given path: C:\Users\arpit_gupta2\aws_task\task01\swagger_src.
+2025-04-17 01:55:38,081 [INFO] USER:ArpitGupta2 project_state.py:430:_update_bpm_resources_from_path LOG: Going to resolve any build project mapping dependent resources from a given path: C:\Users\arpit_gupta2\aws_task\task01\appsync_src.
+2025-04-17 01:55:38,081 [INFO] USER:ArpitGupta2 handlers.py:1014:assemble LOG: Resources for which artifacts need to be built were not found
+2025-04-17 01:55:38,082 [INFO] USER:ArpitGupta2 helper.py:330:timed LOG: Stage assemble, elapsed time: 0:00:00.002842
+2025-04-17 01:55:38,083 [INFO] USER:ArpitGupta2 handlers.py:1037:package_meta LOG: Package meta, bundle: task01_250417.015536
+2025-04-17 01:55:38,083 [INFO] USER:ArpitGupta2 meta_processor.py:513:create_meta LOG: Bundle path: C:/Users/arpit_gupta2/aws_task/task01/bundles/task01_250417.015536
+2025-04-17 01:55:38,086 [INFO] USER:ArpitGupta2 helper.py:292:write_content_to_file LOG: C:/Users/arpit_gupta2/aws_task/task01/bundles/task01_250417.015536\build_meta.json file was created.
+2025-04-17 01:55:38,087 [INFO] USER:ArpitGupta2 handlers.py:1040:package_meta LOG: Meta was configured successfully.
+2025-04-17 01:55:38,087 [INFO] USER:ArpitGupta2 helper.py:330:timed LOG: Stage package_meta, elapsed time: 0:00:00.004111
+2025-04-17 01:55:38,300 [INFO] USER:ArpitGupta2 handlers.py:1083:upload LOG: Upload bundle: task01_250417.015536
+2025-04-17 01:55:38,736 [INFO] USER:ArpitGupta2 bundle_processor.py:232:upload_bundle_to_s3 LOG: Bundle was validated successfully
+2025-04-17 01:55:39,177 [INFO] USER:ArpitGupta2 handlers.py:1090:upload LOG: Bundle was uploaded successfully
+2025-04-17 01:55:39,177 [INFO] USER:ArpitGupta2 helper.py:330:timed LOG: Stage upload, elapsed time: 0:00:01.086914
+2025-04-17 01:55:39,181 [INFO] USER:ArpitGupta2 helper.py:330:timed LOG: Stage build, elapsed time: 0:00:03.027710
+2025-04-17 01:55:47,667 [INFO] USER:ArpitGupta2 handlers.py:106:syndicate LOG: Configuration used: C:/Users/arpit_gupta2/aws_task/task01
+2025-04-17 01:55:47,669 [WARNING] USER:ArpitGupta2 validator.py:179:validate LOG: Unknown parameter(s) in the configuration file: {'lambdas'}
+2025-04-17 01:55:47,884 [INFO] USER:ArpitGupta2 processor.py:143:_prepare_bucket_view LOG: Viewing complement, URIBucketView, has been found, setting up the raw data.
+2025-04-17 01:55:49,744 [INFO] USER:ArpitGupta2 project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2025-04-17 01:55:49,744 [INFO] USER:ArpitGupta2 project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2025-04-17 01:55:50,165 [INFO] USER:ArpitGupta2 sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2025-04-17 01:55:50,591 [INFO] USER:ArpitGupta2 project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2025-04-17 01:55:50,592 [INFO] USER:ArpitGupta2 project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2025-04-17 01:55:51,010 [INFO] USER:ArpitGupta2 sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2025-04-17 01:55:51,011 [INFO] USER:ArpitGupta2 helper.py:233:resolve_default_value LOG: Resolved value of deploy_name: task01
+2025-04-17 01:55:51,417 [INFO] USER:ArpitGupta2 project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2025-04-17 01:55:51,418 [INFO] USER:ArpitGupta2 project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2025-04-17 01:55:51,826 [INFO] USER:ArpitGupta2 sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2025-04-17 01:55:51,827 [INFO] USER:ArpitGupta2 helper.py:233:resolve_default_value LOG: Resolved value of bundle_name: task01_250417.015536
+2025-04-17 01:55:52,267 [INFO] USER:ArpitGupta2 project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2025-04-17 01:55:52,267 [INFO] USER:ArpitGupta2 project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2025-04-17 01:55:52,676 [INFO] USER:ArpitGupta2 sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2025-04-17 01:55:53,099 [INFO] USER:ArpitGupta2 project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2025-04-17 01:55:53,099 [INFO] USER:ArpitGupta2 project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2025-04-17 01:55:53,515 [INFO] USER:ArpitGupta2 sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2025-04-17 01:55:57,070 [INFO] USER:ArpitGupta2 deployment_processor.py:466:create_deployment_resources LOG: Prefixes and suffixes of any resource names have been resolved
+2025-04-17 01:55:57,070 [INFO] USER:ArpitGupta2 deployment_processor.py:489:create_deployment_resources LOG: Going to deploy AWS resources
+2025-04-17 01:55:57,525 [INFO] USER:ArpitGupta2 deployment_processor.py:540:create_deployment_resources LOG: AWS resources were deployed successfully
+2025-04-17 01:55:57,526 [INFO] USER:ArpitGupta2 deployment_processor.py:543:create_deployment_resources LOG: Going to apply dynamic changes
+2025-04-17 01:55:57,526 [INFO] USER:ArpitGupta2 deployment_processor.py:545:create_deployment_resources LOG: Dynamic changes were applied successfully
+2025-04-17 01:55:57,526 [INFO] USER:ArpitGupta2 deployment_processor.py:547:create_deployment_resources LOG: Going to apply post deployment tags
+2025-04-17 01:55:57,533 [INFO] USER:ArpitGupta2 group_tagging_api_resource.py:135:apply_tags LOG: Tags were successfully applied
+2025-04-17 01:55:57,533 [INFO] USER:ArpitGupta2 deployment_processor.py:550:create_deployment_resources LOG: Going to create deploy output
+2025-04-17 01:55:58,175 [INFO] USER:ArpitGupta2 bundle_processor.py:71:create_deploy_output LOG: Output file with name task01_250417.015536/outputs/task01.json has been created
+2025-04-17 01:55:58,175 [INFO] USER:ArpitGupta2 deployment_processor.py:560:create_deployment_resources LOG: Deploy output for task01 was created.
+2025-04-17 01:55:58,175 [INFO] USER:ArpitGupta2 handlers.py:347:deploy LOG: Backend resources were deployed.
+2025-04-17 01:55:58,176 [INFO] USER:ArpitGupta2 helper.py:330:timed LOG: Stage deploy, elapsed time: 0:00:04.660823
+2025-04-17 01:55:58,606 [INFO] USER:ArpitGupta2 project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2025-04-17 01:55:58,606 [INFO] USER:ArpitGupta2 project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2025-04-17 01:55:59,027 [INFO] USER:ArpitGupta2 sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
